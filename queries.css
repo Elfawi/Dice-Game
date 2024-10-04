@@ -1,0 +1,81 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .player {
+    padding: 10rem 5rem 10rem 5rem;
+  }
+  .current-score {
+    font-size: 2.4rem;
+  }
+  .winner-label {
+    display: none;
+    font-size: 2.4rem;
+    color: #fc638e;
+    font-weight: 700;
+    animation: winnerPanel infinite 2s;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+  .name {
+    font-size: 2.4rem;
+  }
+  .btn--tutorials svg {
+    transform: scale(1.6);
+  }
+  .btn-close-turorials {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 50em) {
+  html {
+    font-size: 40%;
+  }
+  .player {
+    padding: 10rem 6rem;
+  }
+  .current-score {
+    font-size: 2.4rem;
+  }
+  .winner-label {
+    display: none;
+    font-size: 2.4rem;
+    color: #fc638e;
+    font-weight: 700;
+    animation: winnerPanel infinite 2s;
+  }
+  .current {
+    width: 70%;
+  }
+  .current-label {
+    font-size: 1.4rem;
+  }
+  .name {
+    font-size: 2.4rem;
+  }
+  .btn {
+    font-size: 1.8rem;
+    padding: 0.7rem 1.6rem;
+  }
+  .btn::first-letter {
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 0.7rem;
+  }
+  .btn--tutorials svg {
+    transform: scale(2.2);
+  }
+  .btn-close-turorials {
+    width: 6rem;
+    height: 6rem;
+  }
+}
